@@ -48,4 +48,6 @@ class Blockchain(object):
             t1 = blockchain.new_transaction("stash1", "group", "5 BTC")
             t1 = blockchain.new_transaction("group", "stash1", "1 BTC")
             blockchain.new_block(12345)
-            print(f"Blockchain: {blockchain.chain}")
+            print("Blockchain: {blockchain.chain}")
+
+            ##codigo sin errores, falta construir la UI
